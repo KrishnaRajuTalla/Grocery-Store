@@ -1,0 +1,73 @@
+.login{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    border: 1px solid lightgray;
+    padding: 20px;
+    padding-top: 0;
+    margin: 20px;
+    text-align: center;
+    padding-right: 60px;
+    width: 25%;
+    margin-top: 8rem;
+    border-radius: 8px;
+}
+.box > h1{
+    font-size: 2rem;
+    
+    font-weight: 400;
+}
+.login > .box > .avatarIcon1{
+    margin-left: 180px;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    
+}
+.box h3{
+    text-align: left;
+    margin: 8px;
+    color: #1c6def;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.box h4{
+    text-align: left;
+    margin: 8px;
+    color: #1c6def;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.input-data > input{
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.button{
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+    background: #4285F4;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.last > a{
+    text-decoration: none;
+}

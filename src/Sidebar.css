@@ -1,0 +1,7 @@
+.sidebar{
+    flex: 0.125;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}

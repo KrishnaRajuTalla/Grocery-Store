@@ -1,0 +1,30 @@
+.SidebarRow{
+    padding: 5px 10px;
+    margin: 0;
+    cursor: pointer;
+    background-color: white;
+}
+.sidebarRow-title{
+    flex: 1;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.SidebarRow:hover{
+    background-color: rgb(203, 230, 203);
+   
+}
+.SidebarRow:hover > .sidebarRow-title{
+    font-weight: bold;
+    color: brown;
+    
+}
+.SidebarRow.selected{
+    background-color: rgb(203, 230, 203);
+}
+
+.SidebarRow.selected > .sidebarRow-title{
+    font-weight: bold;
+    color: brown;
+}
